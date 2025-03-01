@@ -23,25 +23,23 @@ main .window {
   justify-items: center;
   border-radius: 15px;
   text-align: center;
+  font-family: "Outfit", Courier, monospace;
 }
 
 .window .qr-code {
 }
 
 .window h3 {
-  font-family: "Outfit", Courier, monospace;
   color: hsl(218, 44%, 22%);
 }
 
-.window p {
-  font-family: "Outfit", Courier, monospace;
+.window p {   
   color: hsl(216, 15%, 48%);
 }
 
 .qr-code img {
   height: 288px;
   width: 288px;
-
   border-radius: 15px;
   margin: 16px;
 }
@@ -49,14 +47,12 @@ main .window {
 footer {
   position: fixed;
   bottom: 0;
-
   width: 100%;
 }
 footer .attribution {
   font-size: 11px;
   text-align: center;
 }
-
 footer .attribution a {
   color: hsl(228, 45%, 44%);
 }
